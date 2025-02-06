@@ -3,19 +3,19 @@
 O projeto possui o seguinte ciclo
 
 bootstrap
-    - Inicializa a requisição utilizando o RequestBuilder
-    - Instancia a aplicação
-    - Perfoma a requisição
+- Inicializa a requisição utilizando o RequestBuilder
+- Instancia a aplicação
+- Perfoma a requisição
 
 application
-    - Instancia o route handler 
-    - Performa a requisição para a rota
-    - Retorna um echo da resposta transformada para o cliente solicitante
+- Instancia o route handler 
+- Performa a requisição para a rota
+- Retorna um echo da resposta transformada para o cliente solicitante
 
 route handler
-    - Busca a rota solicitada nas rotas registradas na aplicação
-    - Caso a rota não exista é retornado uma resposta para o application
-    - Executa as instruções da rota
+- Busca a rota solicitada nas rotas registradas na aplicação
+- Caso a rota não exista é retornado uma resposta para o application
+- Executa as instruções da rota
 
 #### Como rodar
 O projeto está rodando sob o docker com o docker compose, para subir os container só rodar:
